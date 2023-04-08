@@ -22,6 +22,8 @@ public class DateUtil extends cn.hutool.core.date.DateUtil {
     }
 
     public static Date test(){
+        log.debug("123");
         return date();
+
     }
 }
