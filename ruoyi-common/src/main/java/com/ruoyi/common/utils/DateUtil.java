@@ -16,4 +16,8 @@ public class DateUtil extends cn.hutool.core.date.DateUtil {
     public static String datePath(){
         return format(new Date(), "yyyy/MM/dd");
     }
+
+    public static Date getDate(){
+        return date();
+    }
 }
