@@ -33,4 +33,8 @@ public class DateUtil extends cn.hutool.core.date.DateUtil {
         return date();
 
     }
+
+    public static Date getDate1(){
+        return date();
+    }
 }
