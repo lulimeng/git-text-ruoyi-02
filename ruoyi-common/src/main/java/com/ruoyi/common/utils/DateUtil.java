@@ -6,6 +6,7 @@ import java.util.Date;
 
 /**
  * @author Administrator
+ *  test1-----1
  */
 @Slf4j
 public class DateUtil extends cn.hutool.core.date.DateUtil {
@@ -29,7 +30,15 @@ public class DateUtil extends cn.hutool.core.date.DateUtil {
         log.debug("234567");
         log.debug("123");
         log.debug("234567");
+        log.error("获取地理位置异常 {}" );
+        log.debug("123");
+        log.debug("234567");
+        log.error("获取地理位置异常 {}" );
         return date();
 
+    }
+
+    public static Date getDate1(){
+        return date();
     }
 }
