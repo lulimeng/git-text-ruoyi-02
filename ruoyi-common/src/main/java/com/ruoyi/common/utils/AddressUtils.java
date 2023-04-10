@@ -26,6 +26,7 @@ public class AddressUtils {
 
         // 内网不查询
         if (IpUtils.internalIp(ip)) {
+            log.debug("234567");
             return "内网IP" ;
         }
         if (Global.isAddressEnabled()) {
