@@ -19,10 +19,14 @@ public class DateUtil extends cn.hutool.core.date.DateUtil {
 
     public static Date getDate(){
         log.debug("234567");
+        log.debug("123");
+        log.debug("234567");
         return date();
     }
 
     public static Date test(){
+        log.debug("123");
+        log.debug("234567");
         log.debug("123");
         log.debug("234567");
         return date();
