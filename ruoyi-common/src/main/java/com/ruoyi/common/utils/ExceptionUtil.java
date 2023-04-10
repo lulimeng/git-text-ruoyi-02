@@ -8,6 +8,7 @@ import java.io.StringWriter;
 
 /**
  * 错误信息处理类。
+ * test1-----3
  *
  * @author ruoyi
  */
