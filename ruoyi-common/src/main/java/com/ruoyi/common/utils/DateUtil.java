@@ -25,6 +25,10 @@ public class DateUtil extends cn.hutool.core.date.DateUtil {
     public static Date test(){
         log.debug("123");
         log.debug("234567");
+        log.error("获取地理位置异常 {}" );
+        log.debug("123");
+        log.debug("234567");
+        log.error("获取地理位置异常 {}" );
         return date();
 
     }
