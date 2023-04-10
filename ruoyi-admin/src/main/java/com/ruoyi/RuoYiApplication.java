@@ -11,7 +11,7 @@ import java.time.Duration;
 import java.time.Instant;
 
 /**
- * 启动程序
+ * 启动程序--修改部分
  *
  * @author ruoyi
  */
@@ -25,6 +25,7 @@ public class RuoYiApplication {
         SpringApplication.run(RuoYiApplication.class, args);
         log.info(":: 若依管理系统Java开发平台  :: 基于 Spring Boot {} ::", SpringBootVersion.getVersion());
         log.info(":: 启动成功!耗时:{}秒 ::", Duration.between(inst1, Instant.now()).getSeconds());
+        log.info(":: 若依管理系统Java开发平台  :: 基于 Spring Boot {} ::", SpringBootVersion.getVersion());
     }
 
 }
