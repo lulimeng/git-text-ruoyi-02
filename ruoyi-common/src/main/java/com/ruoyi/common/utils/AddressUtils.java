@@ -43,6 +43,7 @@ public class AddressUtils {
                 address = region + " " + city;
             } catch (Exception e) {
                 log.error("获取地理位置异常 {}" , ip);
+                log.error("获取地理位置异常 {}" , ip);
             }
         }
         return address;
